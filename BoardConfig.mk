@@ -33,6 +33,9 @@ TARGET_OTA_ASSERT_DEVICE := tulip,twolip
 # Kernel
 TARGET_KERNEL_CONFIG := tulip_defconfig
 
+# Root Folders
+BOARD_ROOT_EXTRA_FOLDERS := efs
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2018-11-01
 
